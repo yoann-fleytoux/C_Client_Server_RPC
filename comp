@@ -1,0 +1,6 @@
+gcc -c tp3_svc.c tp3_proc.c tp3_xdr.c
+gcc -o tp3_svc tp3_svc.o tp3_proc.o tp3_xdr.o -lnsl
+
+rm *.o
+rm *~
+

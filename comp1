@@ -1,0 +1,6 @@
+gcc -c rexo.c tp3_clnt.c tp3_xdr.c
+gcc -o rexo tp3_clnt.o rexo.o  tp3_xdr.o -lnsl
+
+rm *.o
+rm *~
+
